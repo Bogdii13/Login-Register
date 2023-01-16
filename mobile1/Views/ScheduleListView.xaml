@@ -38,7 +38,7 @@
                     </HorizontalStackLayout>
                 </Grid>
 
-                <Label  Text="Inchirieri" FontSize="45" HorizontalTextAlignment="Center" />
+                <Label  Text="Inchirieri" FontSize="50" HorizontalTextAlignment="Center" />
                 <Image
                 Source="icon1.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
@@ -114,7 +114,7 @@
         <StackLayout  x:Name="panelLeft" 
                      HorizontalOptions="Start"
                      WidthRequest="80"
-                     BackgroundColor="#222429">
+                     BackgroundColor="Black">
 
             <Image Margin="0,20,0,0"  Source="icon1.png" HeightRequest="30" 
                     WidthRequest="30">
