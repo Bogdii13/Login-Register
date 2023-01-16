@@ -50,7 +50,7 @@ namespace mobile1.ViewModels
             {
                 AppName = "Apartament 2 camere, Militari - Rosu - Cartierul Crinului",
                 ImageUrl = "ap2.jpeg",
-                Price = "Pret: 700 lei",
+                Price = "Pret: 170 lei/zi",
                 Description = "Str. Crinului Nr. 42, la 7 minute de mers pe jos pana la statia STB General Praporgescu (STB 434), an constructie 2019, etaj parter/P+3E.",
                 StartDateTime = DateTime.Now,
                 EndDateTime = DateTime.Now.AddHours(48),
@@ -62,7 +62,7 @@ namespace mobile1.ViewModels
             {
                 AppName = "Chirie apartament 3 camere Unirii",
                 ImageUrl = "ap3.jpeg",
-                Price = "Pret: 1000 lei",
+                Price = "Pret: 1000 lei/zi",
                 Description = "Apartamentul este izolat eficient, cu centrala proprie, geamuri termopan, usa metalica.",
                 StartDateTime = DateTime.Now.Date.AddDays(1).Add(new TimeSpan(13, 0, 0)),
                 EndDateTime = DateTime.Now.Date.AddDays(1).Add(new TimeSpan(14, 0, 0, 0)).AddHours(4),
@@ -74,7 +74,7 @@ namespace mobile1.ViewModels
             {
                 AppName = "Garsoniera de inchiriat 1 decembhrie 1918",
                 ImageUrl = "ap4.jpeg",
-                Price = "Pret: 1200 lei",
+                Price = "Pret: 120 lei/zi",
                 Description = "Se ofera spre inchiriere o garsoniera o camera, un dormitor, etaj 2 / 5, confort I, in bloc mixt, decomandat, constructie finalizata, 39mp, constr. 2021, supr. utila : 44mp, utilat, o baie, o bucatarie, in apropiere de metrou, transport in comun, parc, magazine, mall, piata, unitate sanitara, scoala, gradinita, loc parcare, centrala termica proprie, gresie, faianta, parchet, tv, frigider",
                 StartDateTime = DateTime.Now.AddDays(1).Add(new TimeSpan(15, 0, 0)),
                 EndDateTime = DateTime.Now.AddDays(3).Add(new TimeSpan(16, 0, 0)),
@@ -86,7 +86,7 @@ namespace mobile1.ViewModels
             {
                 AppName = "Garsoniera de inchiriat-Calea Dorobanti",
                 ImageUrl = "ap6.jpeg",
-                Price = "Pret: 1500 lei",
+                Price = "Pret: 150 lei/zi",
                 Description = "Garsoniera de inchiriat, Calea Dorobantilor, Bloc BRD, et 6/10, mobilata modern, toate utilitatile, Balcon 4m2, AC, vedere pe spate, zona cu liniste.\r\nGarsoniera este disponibila imediat.\r\nPentru informatii suplimentare,va asteptam sa ne contactati",
                 StartDateTime = DateTime.Now.AddDays(2).Add(new TimeSpan(19, 0, 0)),
                 EndDateTime = DateTime.Now.AddDays(4).Add(new TimeSpan(20, 0, 0)),
@@ -98,7 +98,7 @@ namespace mobile1.ViewModels
             {
                 AppName = "sat vacanta,apartament 2 camere confort 3",
                 ImageUrl = "ap7.jpeg",
-                Price = "Pret: 750 lei",
+                Price = "Pret: 250 lei/zi",
                 Description = "sat vacanta,apartament 2 camere confort 3",
                 StartDateTime = DateTime.Now.AddDays(2).Add(new TimeSpan(19, 0, 0)),
                 EndDateTime = DateTime.Now.AddDays(8).Add(new TimeSpan(20, 0, 0)),
@@ -158,6 +158,27 @@ namespace mobile1.ViewModels
             }
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private char DayOfWeekChar(int dayOfWeek)
         {

@@ -60,7 +60,7 @@
 
                         <DataTemplate >
 
-                            <Grid Margin="0,5,0,5">
+                            <Grid Margin="0,5,0,1">
                                 <Grid.RowDefinitions >
                                     <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
@@ -77,10 +77,13 @@
                                         
                                         <Label TextColor="White" FontSize="18" Text="{Binding AppName}" />
                                         <Label />
-                                        <ImageButton/>
+                                        
                                         <Label TextColor="White" FontSize="18" Text="{Binding Price}" />
                                         <Label TextColor="White" FontSize="16" Text="{Binding Description}" />
                                         <Label TextColor="White" FontSize="14" Text="{ Binding Location}" />
+
+                                        <Label />
+                                        
                                     </VerticalStackLayout>
                                 </Frame>
 
