@@ -144,10 +144,10 @@
                                 </Border.StrokeShape>
                                 <Border.Triggers>
                                     <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
-                                        <Setter Property="BackgroundColor" Value="#08606d" />
+                                        <Setter Property="BackgroundColor" Value="Aqua" />
                                     </DataTrigger>
                                     <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="False">
-                                        <Setter Property="BackgroundColor" Value="#454952" />
+                                        <Setter Property="BackgroundColor" Value="Aqua" />
                                     </DataTrigger>
                                 </Border.Triggers>
                             </Border>

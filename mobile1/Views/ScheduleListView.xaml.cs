@@ -11,7 +11,7 @@ public partial class ScheduleListView : ContentPage
 
         this.BindingContext = new ScheduleListViewModel();
 
-        panelLeft.TranslateTo(-80, 0, 150);
+        panelLeft.TranslateTo(-30, 0, 100);
     }
 
     private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)

@@ -19,7 +19,7 @@
 
 
 
-            <Grid BackgroundColor="Green">
+            <Grid BackgroundColor="Transparent">
                 
             
 
@@ -36,11 +36,11 @@
             </Grid.RowDefinitions>
                 
 
-            <Label Grid.Row="0" Grid.Column="0" Text="User Name" FontSize="17" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+            <Label Grid.Row="0" Grid.Column="0" Text="User Name" FontSize="13" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
             <Frame Grid.Row="1" Grid.Column="0" HeightRequest="100">
                 <Entry  Text="{Binding UserName}" BackgroundColor="Black" HeightRequest="48"  WidthRequest="150" TextColor="White" />
             </Frame>
-                <Label Grid.Row="2" Text="Password" Padding="0,35,0,0" FontAttributes="Bold" FontSize="17" TextColor="White" HorizontalOptions="Center"/>
+                <Label Grid.Row="2" Text="Password" Padding="0,35,0,0" FontAttributes="Bold" FontSize="13" TextColor="White" HorizontalOptions="Center"/>
             <Frame Grid.Row="3" HeightRequest="100" >
                     <Entry Text="{Binding Password}" IsPassword="True" BackgroundColor="Black" HeightRequest="48"  WidthRequest="150" TextColor="White"/>
             </Frame>
